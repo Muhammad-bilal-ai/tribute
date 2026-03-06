@@ -1,0 +1,63 @@
+h1 {
+  color: rgb(38, 40, 39);
+  background-color: aquamarine;
+  display: block;
+  text-align: center;
+  padding: 4px;
+  border-radius: 20px;
+  border-color: aqua;
+  border: 4px outset rgb(6, 236, 110);
+  box-shadow: 10px 10px 5px 0px rgba(156, 155, 155, 0.75);
+}
+a {
+  background-color: aqua;
+  border-radius: 20px;
+  padding: 5px;
+}
+a:hover {
+  background-color: rgb(186, 193, 198);
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(229, 101, 167, 0.75);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+p {
+  color: rgb(71, 3, 5);
+  font-size: 30;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 2px;
+  background-color: aqua;
+  box-shadow: 10px 10px 5px 0px rgba(156, 155, 155, 0.75);
+
+  border: 4px outset rgb(6, 236, 110);
+  border-radius: 20px;
+  /* transform: skew(5deg); */
+}
+img {
+  border: 4px inset rgb(6, 236, 110);
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px 0px rgba(55, 53, 53, 0.75);
+  margin: 2px;
+  padding: 20px;
+  align-content: center;
+}
+.parent-div {
+  align-items: center;
+}
+
+.life {
+  border: 4px outset rgb(6, 236, 110);
+  border-radius: 20px;
+  display: inline-block;
+  background-color: aqua;
+  margin: 50px;
+  padding: 5px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(156, 155, 155, 0.75);
+}
+h3 {
+  margin: 20px;
+  padding: 3px;
+}
